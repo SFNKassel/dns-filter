@@ -7,8 +7,8 @@ $TTL    3600
                                   3600)        ; Default TTL
 
 @	IN	NS	login.sfn.
-                A       192.168.1.1 ; This means that naughydomain.com gets directed to the designated address
-*       IN      A       192.168.1.1 ; This wildcard entry means that any permutation of xxx.naughtydomain.com gets directed to the designated address
+                A       192.168.1.2 ; This means that naughydomain.com gets directed to the designated address
+*       IN      A       192.168.1.2 ; This wildcard entry means that any permutation of xxx.naughtydomain.com gets directed to the designated address
                 AAAA    ::1 ; This means that naughydomain.com gets directed to IPv6 localhost
 *       IN      AAAA    ::1 ; This wildcard entry means that any permutation of xxx.naughtydomain.com gets directed to IPv6 localhost 
 
