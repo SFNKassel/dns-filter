@@ -5,3 +5,4 @@ install:
 	python3 gen_dns_zones.py
 	cp blockeddomains.db /etc/bind
 	cp blacklisted.zones /etc/bind
+	service univention-bind restart
